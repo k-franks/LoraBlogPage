@@ -1,0 +1,22 @@
+/* line 3, main.scss */
+body {
+  background: #666666 url("../img/Ptexture.jpg") repeat;
+}
+
+/* line 7, main.scss */
+h1 {
+  color: red;
+  background: blue;
+  width: 300px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* line 15, main.scss */
+#placeHolder {
+  width: 50%;
+}
+/* line 17, main.scss */
+#placeHolder img {
+  width: 100%;
+}
