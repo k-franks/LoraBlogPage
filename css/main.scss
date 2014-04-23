@@ -4,17 +4,87 @@ body {
 	background: #666 $backgroundImage repeat;
 }
 
-h1 {
-	color: red;
-	background: blue;
-	width: 300px;
-	border-radius: 5px;
+.LogoText {
+	color: #3333ff;
+	float: left;
+	font-size: 2.25em;
+	width: 50%;
+	margin: 0px;
+	font-family: $fontfamily
+}
+
+
+
+.navItem {
+	
+
+	li {
+		list-style-type: none;
+		text-decoration: none;
+		  color: white;
+		  padding: 5px 20px;
+		  float: right;
+		  margin: 0px 2px;
+		  margin-top: 5px;
+		  background-color: #3333ff;
+		  border-radius: 5px;
+		  text-align: center;
+		  width: 50px;
+		  height: 30px;
+		  font-weight: bold; 
+		  font-size: .75em;
+		  font-family: $fontfamily
+	}
+	a {
+	  	display: block;
+	  	text-decoration: none;
+	  	color: white;
+
+
+	  
+	}
+}
+
+#artist {
+	float: left;
+	margin: 40px 10px;
+	width: 50%;
+
+	img {
+		width: 100%;
+	}
+	#inGarb {
+		display: none;
+	}
+}
+
+.btn {
+	padding: 15px 30px;
+	margin: 40px 0;
+	color: white;
+	background: #3333ff;
+	border-radius: 25px;
+	clear: both;
+	width: 100px;
 	text-align: center;
 }
 
-#placeHolder {
-	width: 50%;
-	img{
-		width: 100%;
+#aboutText {
+	width: 45%;
+	float: right;
+	color: white;
+	background: #3333ff;
+	margin: 40px 10px;
+
+	p {
+
+	}
+
+	span {
+		font-weight: bold;
+	}
+
+	#scaText {
+		display: none;
 	}
 }
