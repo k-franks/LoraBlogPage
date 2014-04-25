@@ -21,3 +21,8 @@ $("#idToggle").click(function () {
 		clicked = true;
 	}
 });
+
+$(".menuSlide").hide();
+$(".LogoText").click(function () {
+	$(".menuSlide").slideToggle('slow');
+});

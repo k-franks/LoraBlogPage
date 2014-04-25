@@ -1,59 +1,60 @@
 /* line 3, main.scss */
 body {
-  background: #666666 url("../img/Ptexture.jpg") repeat;
+  background: #e6e6b8;
 }
 
 /* line 7, main.scss */
 .LogoText {
   color: #3333ff;
-  float: left;
   font-size: 2.25em;
   width: 50%;
   margin: 0px;
   font-family: "Playfair Display SC", "serif";
 }
 
-/* line 21, main.scss */
-.navItem li {
+/* line 16, main.scss */
+.menuSlide {
+  background-color: #5c5c4a;
+  width: 175px;
+  height: 1000px;
+  margin: 0;
+  padding: 0;
+  font-size: 1.75em;
+  font-family: "Playfair Display SC", "serif";
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+}
+/* line 29, main.scss */
+.menuSlide li {
   list-style-type: none;
   text-decoration: none;
-  color: white;
-  padding: 5px 20px;
-  float: right;
-  margin: 0px 2px;
-  margin-top: 5px;
-  background-color: #3333ff;
-  border-radius: 5px;
-  text-align: center;
-  width: 50px;
-  height: 30px;
-  font-weight: bold;
-  font-size: .75em;
-  font-family: "Playfair Display SC", "serif";
+  border-bottom: 2px solid black;
 }
-/* line 38, main.scss */
-.navItem a {
+/* line 34, main.scss */
+.menuSlide a {
   display: block;
   text-decoration: none;
   color: white;
+  margin-top: 10px;
 }
 
-/* line 48, main.scss */
+/* line 73, main.scss */
 #artist {
   float: left;
-  margin: 40px 10px;
+  margin: 20px 10px;
   width: 50%;
 }
-/* line 53, main.scss */
+/* line 78, main.scss */
 #artist img {
   width: 100%;
 }
-/* line 56, main.scss */
+/* line 81, main.scss */
 #artist #inGarb {
   display: none;
 }
 
-/* line 61, main.scss */
+/* line 86, main.scss */
 .btn {
   padding: 15px 30px;
   margin: 40px 0;
@@ -65,19 +66,19 @@ body {
   text-align: center;
 }
 
-/* line 72, main.scss */
+/* line 97, main.scss */
 #aboutText {
   width: 45%;
   float: right;
   color: white;
   background: #3333ff;
-  margin: 40px 10px;
+  margin: 20px 10px;
 }
-/* line 83, main.scss */
+/* line 108, main.scss */
 #aboutText span {
   font-weight: bold;
 }
-/* line 87, main.scss */
+/* line 112, main.scss */
 #aboutText #scaText {
   display: none;
 }
