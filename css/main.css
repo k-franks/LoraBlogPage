@@ -1,18 +1,18 @@
 /* line 3, main.scss */
 body {
-  background: #e6e6b8;
+  background: #33334c;
 }
 
 /* line 7, main.scss */
 .LogoText {
-  color: #3333ff;
+  color: #B575D6;
   font-size: 2.25em;
   width: 50%;
   margin: 0px;
   font-family: "Playfair Display SC", "serif";
 }
 
-/* line 16, main.scss */
+/* line 21, main.scss */
 .menuSlide {
   background-color: #5c5c4a;
   width: 175px;
@@ -25,13 +25,13 @@ body {
   z-index: 1;
   text-align: center;
 }
-/* line 29, main.scss */
+/* line 34, main.scss */
 .menuSlide li {
   list-style-type: none;
   text-decoration: none;
   border-bottom: 2px solid black;
 }
-/* line 34, main.scss */
+/* line 39, main.scss */
 .menuSlide a {
   display: block;
   text-decoration: none;
@@ -39,22 +39,22 @@ body {
   margin-top: 10px;
 }
 
-/* line 73, main.scss */
+/* line 50, main.scss */
 #artist {
   float: left;
   margin: 20px 10px;
   width: 50%;
 }
-/* line 78, main.scss */
+/* line 55, main.scss */
 #artist img {
   width: 100%;
 }
-/* line 81, main.scss */
+/* line 58, main.scss */
 #artist #inGarb {
   display: none;
 }
 
-/* line 86, main.scss */
+/* line 63, main.scss */
 .btn {
   padding: 15px 30px;
   margin: 40px 0;
@@ -66,7 +66,7 @@ body {
   text-align: center;
 }
 
-/* line 97, main.scss */
+/* line 74, main.scss */
 #aboutText {
   width: 45%;
   float: right;
@@ -74,11 +74,48 @@ body {
   background: #3333ff;
   margin: 20px 10px;
 }
-/* line 108, main.scss */
+/* line 85, main.scss */
 #aboutText span {
   font-weight: bold;
 }
-/* line 112, main.scss */
+/* line 89, main.scss */
 #aboutText #scaText {
   display: none;
+}
+
+/* line 96, main.scss */
+.galleryBtn {
+  height: 250px;
+  width: 60%;
+  opacity: .7;
+  background-color: #33334c;
+  text-align: center;
+  color: white;
+  font-size: 5em;
+  font-weight: bold;
+  margin: 5px;
+  font-family: 'Kaushan Script', 'cursive';
+}
+/* line 109, main.scss */
+.galleryBtn a {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 115, main.scss */
+#glassBtn {
+  background-image: url("../img/spikebeads.jpg");
+  background-size: cover;
+}
+
+/* line 120, main.scss */
+#bookBtn {
+  background-image: url("../img/Bookgears.jpg");
+  background-size: cover;
+}
+
+/* line 125, main.scss */
+#miscBtn {
+  background-image: url("../img/scribal.jpg");
+  background-size: cover;
 }

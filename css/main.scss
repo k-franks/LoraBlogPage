@@ -5,13 +5,18 @@ body {
 }
 
 .LogoText {
-	color: #3333ff;
+	color: #B575D6;
 	// float: center;
 	font-size: 2.25em;
 	width: 50%;
 	margin: 0px;
 	font-family: $fontfamily;
 }
+
+
+
+
+
 
 .menuSlide {
 	background-color: #5c5c4a;
@@ -32,43 +37,15 @@ body {
 		border-bottom: 2px solid black;
 	}
 	a {
-	  	display: block;
-	  	text-decoration: none;
-	  	color: white;
-	  	margin-top: 10px;
-	  }
+		display: block;
+		text-decoration: none;
+		color: white;
+		margin-top: 10px;
+	}
 }
 
 
-// .navItem {
-	
 
-// 	li {
-// 		list-style-type: none;
-// 		text-decoration: none;
-// 		  color: white;
-// 		  padding: 5px 20px;
-// 		  float: right;
-// 		  margin: 0px 2px;
-// 		  margin-top: 5px;
-// 		  background-color: #3333ff;
-// 		  border-radius: 5px;
-// 		  text-align: center;
-// 		  width: 50px;
-// 		  height: 30px;
-// 		  font-weight: bold; 
-// 		  font-size: .75em;
-// 		  font-family: $fontfamily
-// 	}
-// 	a {
-// 	  	display: block;
-// 	  	text-decoration: none;
-// 	  	color: white;
-
-
-	  
-// 	}
-// }
 
 #artist {
 	float: left;
@@ -113,3 +90,40 @@ body {
 		display: none;
 	}
 }
+
+// The div buttons for z-index
+
+.galleryBtn {
+	height: 250px;
+	width: 60%;
+	opacity: .7;
+	background-color: $backcolor;
+	text-align: center;
+	color: white;
+	font-size: 5em;
+	font-weight: bold;
+	margin: 5px;
+	font-family: 'Kaushan Script', 'cursive';
+
+
+	a{
+		text-decoration: none;
+		color: white;
+	}
+}
+
+#glassBtn{
+	background-image: url('../img/spikebeads.jpg');
+	background-size: cover;
+}
+
+#bookBtn {
+	background-image: url('../img/Bookgears.jpg');
+	background-size: cover;
+}
+
+#miscBtn {
+	background-image: url('../img/scribal.jpg');
+	background-size: cover;
+}
+
