@@ -7,12 +7,40 @@ body {
 .LogoText {
   color: #B575D6;
   font-size: 2.25em;
-  width: 50%;
+  max-width: 50%;
   margin: 0px;
   font-family: "Playfair Display SC", "serif";
 }
 
-/* line 21, main.scss */
+/* line 15, main.scss */
+#mainphoto {
+  float: right;
+  width: 30%;
+  display: block;
+  margin-left: 50px;
+  text-align: center;
+}
+/* line 22, main.scss */
+#mainphoto img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+}
+
+/* line 29, main.scss */
+#blogpost {
+  float: right;
+  width: 30%;
+  height: 510px;
+  display: block;
+  margin: 5px 20px 2px 40px;
+  text-align: justify;
+  background: #2E2E8A;
+  clear: both;
+  color: white;
+}
+
+/* line 44, main.scss */
 .menuSlide {
   background-color: #5c5c4a;
   width: 175px;
@@ -25,13 +53,13 @@ body {
   z-index: 1;
   text-align: center;
 }
-/* line 34, main.scss */
+/* line 57, main.scss */
 .menuSlide li {
   list-style-type: none;
   text-decoration: none;
   border-bottom: 2px solid black;
 }
-/* line 39, main.scss */
+/* line 62, main.scss */
 .menuSlide a {
   display: block;
   text-decoration: none;
@@ -39,22 +67,22 @@ body {
   margin-top: 10px;
 }
 
-/* line 50, main.scss */
+/* line 73, main.scss */
 #artist {
   float: left;
   margin: 20px 10px;
   width: 50%;
 }
-/* line 55, main.scss */
+/* line 78, main.scss */
 #artist img {
   width: 100%;
 }
-/* line 58, main.scss */
+/* line 81, main.scss */
 #artist #inGarb {
   display: none;
 }
 
-/* line 63, main.scss */
+/* line 86, main.scss */
 .btn {
   padding: 15px 30px;
   margin: 40px 0;
@@ -66,7 +94,7 @@ body {
   text-align: center;
 }
 
-/* line 74, main.scss */
+/* line 97, main.scss */
 #aboutText {
   width: 45%;
   float: right;
@@ -74,16 +102,16 @@ body {
   background: #3333ff;
   margin: 20px 10px;
 }
-/* line 85, main.scss */
+/* line 108, main.scss */
 #aboutText span {
   font-weight: bold;
 }
-/* line 89, main.scss */
+/* line 112, main.scss */
 #aboutText #scaText {
   display: none;
 }
 
-/* line 96, main.scss */
+/* line 119, main.scss */
 .galleryBtn {
   height: 250px;
   width: 60%;
@@ -96,26 +124,34 @@ body {
   margin: 5px;
   font-family: 'Kaushan Script', 'cursive';
 }
-/* line 109, main.scss */
+/* line 132, main.scss */
 .galleryBtn a {
   text-decoration: none;
   color: white;
+  opacity: 1;
 }
 
-/* line 115, main.scss */
+/* line 139, main.scss */
 #glassBtn {
   background-image: url("../img/spikebeads.jpg");
   background-size: cover;
 }
 
-/* line 120, main.scss */
+/* line 144, main.scss */
 #bookBtn {
   background-image: url("../img/Bookgears.jpg");
   background-size: cover;
 }
 
-/* line 125, main.scss */
+/* line 149, main.scss */
 #miscBtn {
   background-image: url("../img/scribal.jpg");
   background-size: cover;
+}
+
+@media only screen and (min-width: 319px) and (max-width: 768px) {
+  /* line 157, main.scss */
+  .galleryBtn {
+    font-size: 2.5em;
+  }
 }

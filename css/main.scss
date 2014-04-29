@@ -6,15 +6,38 @@ body {
 
 .LogoText {
 	color: #B575D6;
-	// float: center;
 	font-size: 2.25em;
-	width: 50%;
+	max-width: 50%;
 	margin: 0px;
 	font-family: $fontfamily;
 }
 
+#mainphoto {
+	float: right;
+	width: 30%;
+	display: block;
+	margin-left: 50px;
+	text-align: center;
 
+	img {
+		max-width: 100%;
+		max-height: 100%;
+		border-radius: 50%;
+	}
+}
 
+#blogpost {
+	float: right;
+	width: 30%;
+	height: 510px;
+	display: block;
+	margin: 5px 20px 2px 40px;
+	text-align: justify;
+	background: #2E2E8A;
+	clear: both;
+	color: white;
+
+}
 
 
 
@@ -105,10 +128,11 @@ body {
 	margin: 5px;
 	font-family: 'Kaushan Script', 'cursive';
 
-
+	
 	a{
 		text-decoration: none;
 		color: white;
+		opacity: 1;
 	}
 }
 
@@ -127,3 +151,11 @@ body {
 	background-size: cover;
 }
 
+@media only screen 
+and (min-width : 319px)
+and (max-width : 768px) {
+	.galleryBtn {
+		font-size: 2.5em;
+			
+	} 
+}
